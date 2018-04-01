@@ -1,0 +1,14 @@
+{
+    "cmsName": "星火后台管理系统",
+    "version": "1.0.0",
+    "author": "少主",
+    "homePage": "/index.aspx",
+    "server": "windows",
+    "dataBase": "sql server 2012",
+    "maxUpload": "2M",
+    "userRights": "总管理员",
+    "description": "这是少主基于layui的cms模版修改的后台管理系统",
+    "powerby": "Copyright 星火传承公益 2016-2017 Edu Inc.",
+    "record": "赣ICP备17004253号-2",
+    "keywords": "星火传承后台管理系统"
+}

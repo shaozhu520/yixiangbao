@@ -1,0 +1,56 @@
+﻿body {
+    font-family: "微软雅黑";
+}
+
+#header {
+}
+
+
+
+#footer {
+}
+
+#header .topbar {
+    height: 40px;
+    border-bottom: solid 1px #c0c0c0;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+    #header .topbar .container .row div {
+        height: 40px;
+    }
+
+        #header .topbar .container .row div + div {
+            border-left: 1px solid #c0c0c0;
+        }
+
+.top-nav .navbar-default {
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+
+
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: transparent;
+    border-bottom: solid 2px #e92322;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: solid 2px #e92322;
+}
+
+.navbar-brand {
+    padding: 15px 0px;
+}
+
+#main_ad {
+}
+
+    #main_ad > .carousel-inner > .item {
+        height: 410px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }

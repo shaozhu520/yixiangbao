@@ -1,0 +1,159 @@
+﻿/**二级导航/*/
+.nav_s{
+    height:50px;
+    line-height:50px;
+    width:100%;
+}
+.nav_s .nav_s-title{
+    font-size:18px;
+    padding-left:10px;
+}
+.nav_s-title a{
+    color:#003;
+}
+
+.nav_s a{
+
+    font-size:18px;
+}
+
+.Content-Main-tetx{
+    width:100%;
+    height:100%;
+}
+.Content-Main{
+    width:1000px;
+    margin:0 auto;
+}
+.Content-Main-s{
+    width:1000px;
+    border:1px solid #EBEBEB;
+}
+.search{/*搜索*/
+    height:90px;
+}
+.search-title{
+    height:40px;
+    border-bottom:3px solid #00f;
+}
+.search-title p{
+    margin-left:10px;
+    line-height:40px;
+    font-size:15px;
+}
+.search-main{
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    /*border-bottom:1px dashed #808080;*/
+}
+.search-main .inputs{
+    height:30px;
+    width:150px;
+    border:1px solid #808080;
+}
+.search-main a{
+    display:inline-block;
+    line-height:28px;
+    height:28px;
+    background:#428BCA;
+    margin:0 8px;
+    padding:0 15px;
+    color:#fff;
+    border-radius:5px;
+}
+/*列表开始*/
+.list-main{
+    width:100%;
+    height:100%;
+    margin-top:15px;
+}
+.list-content{
+    cursor:pointer;
+    width:1000px;
+    margin:0 auto;
+    border: 1px solid #EBEBEB;
+    padding-bottom:5px;
+}
+.list-content:hover{
+    background:rgba(0,0,0,0.1);
+}
+.post-list{
+    padding: 8px;
+    border-bottom:1px dashed #808080;
+}
+.post-header{
+    font-size:13px;
+    color:#000;
+}
+.post-header h2{
+    padding: 4px;
+    text-shadow: 0 1px 0 #DDD;
+}
+.post-header a{
+    color: #036;
+    font-weight: 700;
+    margin-left: 0;
+}
+.readmore{
+    background: #FAFAFA;
+    padding: 0 6px;
+    border: 1px solid #E4E4E4;
+    border-radius: 3px;
+    float: right;
+}
+.post-meta{
+    font-size: 13px;
+    padding: 6px 4px;
+    color:#888;
+}
+.pauthor,.ptime,.pcate,.pview{
+    margin-right:10px;
+    font-size:16px;
+}
+.pauthor i,.ptime i,.pcate i,.pview i{
+    display:inline-block;
+    width:14px;
+    height:15px;
+}
+.pauthor i {
+    background:url(../img/pauthor.png) no-repeat;
+}
+.ptime i {
+    background:url(../img/ptime.png) no-repeat;
+}
+.pcate i{
+    background:url(../img/pcate.png) no-repeat;
+}
+.pview i{
+    background:url(../img/pview.png) no-repeat;
+}
+.readmore a{
+    color:#003;
+}
+/*分页*/
+.paging{
+    border: 1px solid #EBEBEB;
+    border-top:none;
+    width:1000px;
+    margin:0 auto;
+    height:50px;
+}
+.paging .first-btn{
+    padding-top:10px;
+    float:left;
+    margin:0 15px;
+    font-size:14px;
+    box-sizing:border-box;
+}
+.first-btn a{
+    display:block;
+    color:#808080;
+    height:30px;
+    line-height:30px;
+    padding: 0 10px;
+    border:1px solid #428BCA;
+}
+.first-btn a:hover{
+    color:red;
+}

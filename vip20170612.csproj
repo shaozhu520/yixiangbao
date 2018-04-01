@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94266A1B-2D63-4DFC-8EFF-9B91B1C1EDDB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>vip20170612</RootNamespace>
+    <AssemblyName>vip20170612</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="com.DAL.Base">
+      <HintPath>..\Reference\com.DAL.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="com.Model.Base">
+      <HintPath>..\Reference\com.Model.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="com.Utility">
+      <HintPath>..\Reference\com.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="DAL.ruanmou">
+      <HintPath>..\Reference\DAL.ruanmou.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Model.ruanmou">
+      <HintPath>..\Reference\Model.ruanmou.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="activity.aspx" />
+    <Content Include="admin\admin_login.html" />
+    <Content Include="admin\base.html" />
+    <Content Include="admin\css\admin_login.css" />
+    <Content Include="admin\css\font_eolqem241z66flxr.css" />
+    <Content Include="admin\css\images.css" />
+    <Content Include="admin\css\main.css" />
+    <Content Include="admin\css\message.css" />
+    <Content Include="admin\css\news.css" />
+    <Content Include="admin\css\user.css" />
+    <Content Include="admin\images\admin.png" />
+    <Content Include="admin\images\alipay.jpg" />
+    <Content Include="admin\images\face.jpg" />
+    <Content Include="admin\images\user.png" />
+    <Content Include="admin\images\userface1.jpg" />
+    <Content Include="admin\images\userface2.jpg" />
+    <Content Include="admin\images\userface3.jpg" />
+    <Content Include="admin\images\userface4.jpg" />
+    <Content Include="admin\images\userface5.jpg" />
+    <Content Include="admin\images\wechat.jpg" />
+    <Content Include="admin\js\admin_login.js" />
+    <Content Include="admin\js\bodyTab.js" />
+    <Content Include="admin\js\cookies.jquery.js" />
+    <Content Include="admin\js\cookieyz.js" />
+    <Content Include="admin\js\cookieyz1.js" />
+    <Content Include="admin\js\index.js" />
+    <Content Include="admin\js\leftNav.js" />
+    <Content Include="admin\js\main.js" />
+    <Content Include="admin\js\nav.js" />
+    <Content Include="admin\js\Verification.js" />
+    <Content Include="admin\layui\css\layui.css" />
+    <Content Include="admin\layui\css\layui.mobile.css" />
+    <Content Include="admin\layui\css\modules\code.css" />
+    <Content Include="admin\layui\css\modules\laydate\icon.png" />
+    <Content Include="admin\layui\css\modules\laydate\laydate.css" />
+    <Content Include="admin\layui\css\modules\layer\default\icon-ext.png" />
+    <Content Include="admin\layui\css\modules\layer\default\icon.png" />
+    <Content Include="admin\layui\css\modules\layer\default\layer.css" />
+    <Content Include="admin\layui\css\modules\layer\default\loading-0.gif" />
+    <Content Include="admin\layui\css\modules\layer\default\loading-1.gif" />
+    <Content Include="admin\layui\css\modules\layer\default\loading-2.gif" />
+    <Content Include="admin\layui\font\iconfont.svg" />
+    <Content Include="admin\layui\images\face\0.gif" />
+    <Content Include="admin\layui\images\face\1.gif" />
+    <Content Include="admin\layui\images\face\10.gif" />
+    <Content Include="admin\layui\images\face\11.gif" />
+    <Content Include="admin\layui\images\face\12.gif" />
+    <Content Include="admin\layui\images\face\13.gif" />
+    <Content Include="admin\layui\images\face\14.gif" />
+    <Content Include="admin\layui\images\face\15.gif" />
+    <Content Include="admin\layui\images\face\16.gif" />
+    <Content Include="admin\layui\images\face\17.gif" />
+    <Content Include="admin\layui\images\face\18.gif" />
+    <Content Include="admin\layui\images\face\19.gif" />
+    <Content Include="admin\layui\images\face\2.gif" />
+    <Content Include="admin\layui\images\face\20.gif" />
+    <Content Include="admin\layui\images\face\21.gif" />
+    <Content Include="admin\layui\images\face\22.gif" />
+    <Content Include="admin\layui\images\face\23.gif" />
+    <Content Include="admin\layui\images\face\24.gif" />
+    <Content Include="admin\layui\images\face\25.gif" />
+    <Content Include="admin\layui\images\face\26.gif" />
+    <Content Include="admin\layui\images\face\27.gif" />
+    <Content Include="admin\layui\images\face\28.gif" />
+    <Content Include="admin\layui\images\face\29.gif" />
+    <Content Include="admin\layui\images\face\3.gif" />
+    <Content Include="admin\layui\images\face\30.gif" />
+    <Content Include="admin\layui\images\face\31.gif" />
+    <Content Include="admin\layui\images\face\32.gif" />
+    <Content Include="admin\layui\images\face\33.gif" />
+    <Content Include="admin\layui\images\face\34.gif" />
+    <Content Include="admin\layui\images\face\35.gif" />
+    <Content Include="admin\layui\images\face\36.gif" />
+    <Content Include="admin\layui\images\face\37.gif" />
+    <Content Include="admin\layui\images\face\38.gif" />
+    <Content Include="admin\layui\images\face\39.gif" />
+    <Content Include="admin\layui\images\face\4.gif" />
+    <Content Include="admin\layui\images\face\40.gif" />
+    <Content Include="admin\layui\images\face\41.gif" />
+    <Content Include="admin\layui\images\face\42.gif" />
+    <Content Include="admin\layui\images\face\43.gif" />
+    <Content Include="admin\layui\images\face\44.gif" />
+    <Content Include="admin\layui\images\face\45.gif" />
+    <Content Include="admin\layui\images\face\46.gif" />
+    <Content Include="admin\layui\images\face\47.gif" />
+    <Content Include="admin\layui\images\face\48.gif" />
+    <Content Include="admin\layui\images\face\49.gif" />
+    <Content Include="admin\layui\images\face\5.gif" />
+    <Content Include="admin\layui\images\face\50.gif" />
+    <Content Include="admin\layui\images\face\51.gif" />
+    <Content Include="admin\layui\images\face\52.gif" />
+    <Content Include="admin\layui\images\face\53.gif" />
+    <Content Include="admin\layui\images\face\54.gif" />
+    <Content Include="admin\layui\images\face\55.gif" />
+    <Content Include="admin\layui\images\face\56.gif" />
+    <Content Include="admin\layui\images\face\57.gif" />
+    <Content Include="admin\layui\images\face\58.gif" />
+    <Content Include="admin\layui\images\face\59.gif" />
+    <Content Include="admin\layui\images\face\6.gif" />
+    <Content Include="admin\layui\images\face\60.gif" />
+    <Content Include="admin\layui\images\face\61.gif" />
+    <Content Include="admin\layui\images\face\62.gif" />
+    <Content Include="admin\layui\images\face\63.gif" />
+    <Content Include="admin\layui\images\face\64.gif" />
+    <Content Include="admin\layui\images\face\65.gif" />
+    <Content Include="admin\layui\images\face\66.gif" />
+    <Content Include="admin\layui\images\face\67.gif" />
+    <Content Include="admin\layui\images\face\68.gif" />
+    <Content Include="admin\layui\images\face\69.gif" />
+    <Content Include="admin\layui\images\face\7.gif" />
+    <Content Include="admin\layui\images\face\70.gif" />
+    <Content Include="admin\layui\images\face\71.gif" />
+    <Content Include="admin\layui\images\face\8.gif" />
+    <Content Include="admin\layui\images\face\9.gif" />
+    <Content Include="admin\layui\layui.js" />
+    <Content Include="admin\layui\lay\dest\layui.all.js" />
+    <Content Include="admin\layui\lay\modules\code.js" />
+    <Content Include="admin\layui\lay\modules\element.js" />
+    <Content Include="admin\layui\lay\modules\flow.js" />
+    <Content Include="admin\layui\lay\modules\form.js" />
+    <Content Include="admin\layui\lay\modules\jquery.js" />
+    <Content Include="admin\layui\lay\modules\laydate.js" />
+    <Content Include="admin\layui\lay\modules\layedit.js" />
+    <Content Include="admin\layui\lay\modules\layer.js" />
+    <Content Include="admin\layui\lay\modules\layim.js" />
+    <Content Include="admin\layui\lay\modules\laypage.js" />
+    <Content Include="admin\layui\lay\modules\laytpl.js" />
+    <Content Include="admin\layui\lay\modules\mobile.js" />
+    <Content Include="admin\layui\lay\modules\tree.js" />
+    <Content Include="admin\layui\lay\modules\upload.js" />
+    <Content Include="admin\layui\lay\modules\util.js" />
+    <Content Include="admin\page\404.html" />
+    <Content Include="admin\page\img\images.html" />
+    <Content Include="admin\page\img\images.js" />
+    <Content Include="admin\page\links\linksAdd.html" />
+    <Content Include="admin\page\links\linksAdd.js" />
+    <Content Include="admin\page\links\linksList.html" />
+    <Content Include="admin\page\links\linksList.js" />
+    <Content Include="admin\page\main.html" />
+    <Content Include="admin\page\message\message.html" />
+    <Content Include="admin\page\message\message.js" />
+    <Content Include="admin\page\message\messageReply.html" />
+    <Content Include="admin\page\news\addImage.js" />
+    <Content Include="admin\page\news\amend.html" />
+    <Content Include="admin\page\news\amend.js" />
+    <Content Include="admin\page\news\Auditing.html" />
+    <Content Include="admin\page\news\Auditing.js" />
+    <Content Include="admin\page\news\newsList.js" />
+    <Content Include="admin\page\news\jquery-1.11.0.js" />
+    <Content Include="admin\page\news\newsAdd.html" />
+    <Content Include="admin\page\news\newsAdd.js" />
+    <Content Include="admin\page\news\newsList.html" />
+    <Content Include="admin\page\news\Preload.js" />
+    <Content Include="admin\page\systemParameter\systemParameter.html" />
+    <Content Include="admin\page\systemParameter\systemParameter.js" />
+    <Content Include="admin\page\user\address.js" />
+    <Content Include="admin\page\user\addAdminUser.html" />
+    <Content Include="admin\page\user\addAdminUser.js" />
+    <Content Include="admin\page\user\admin_user.html" />
+    <Content Include="admin\page\user\admin_user.js" />
+    <Content Include="admin\page\user\changePwd.html" />
+    <Content Include="admin\page\user\InformationTable.html" />
+    <Content Include="admin\page\user\InformationTable.js" />
+    <Content Include="admin\page\user\modifyPwd.js" />
+    <Content Include="admin\page\user\user.js" />
+    <Content Include="articleContent.aspx" />
+    <Content Include="articlesList.aspx" />
+    <Content Include="bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Course.aspx" />
+    <Content Include="css\Modify_pwd.css" />
+    <Content Include="css\User_tg.css" />
+    <Content Include="HeadPortrait.aspx" />
+    <Content Include="include\footer.html" />
+    <Content Include="include\header.html" />
+    <Content Include="index.aspx" />
+    <Content Include="js\activity.js" />
+    <Content Include="js\articlesList.js" />
+    <Content Include="js\HeadPortrait.js" />
+    <Content Include="js\Other.js" />
+    <Content Include="js\Other_page.js" />
+    <Content Include="js\page.js" />
+    <Content Include="js\touxiang_page.js" />
+    <Content Include="js\User_tg.js" />
+    <Content Include="js\Verification.js" />
+    <Content Include="js\wzjc_page.js" />
+    <Content Include="js\xiaobao_page.js" />
+    <Content Include="layer\layer.js" />
+    <Content Include="layer\mobile\layer.js" />
+    <Content Include="layer\mobile\need\layer.css" />
+    <Content Include="layer\theme\default\icon-ext.png" />
+    <Content Include="layer\theme\default\icon.png" />
+    <Content Include="layer\theme\default\layer.css" />
+    <Content Include="layer\theme\default\loading-0.gif" />
+    <Content Include="layer\theme\default\loading-1.gif" />
+    <Content Include="layer\theme\default\loading-2.gif" />
+    <Content Include="layui\font\iconfont.eot" />
+    <Content Include="layui\font\iconfont.ttf" />
+    <Content Include="layui\font\iconfont.woff" />
+    <Content Include="Other.aspx" />
+    <Content Include="user\include\leftNav.html" />
+    <Content Include="user\index.aspx" />
+    <Content Include="user\js\changpwd.js" />
+    <Content Include="user\js\login.js" />
+    <Content Include="user\js\reg.js" />
+    <Content Include="user\login.aspx" />
+    <Content Include="user\Modify_pwd.aspx" />
+    <Content Include="user\personal.aspx" />
+    <Content Include="user\recharge.aspx" />
+    <Content Include="user\reg.aspx" />
+    <Content Include="user\User_tg.aspx" />
+    <Content Include="ajax\regAjax.ashx" />
+    <Content Include="ajax\loginAjax.ashx" />
+    <Content Include="admin\Handle.ashx" />
+    <Content Include="admin\json\images.json" />
+    <Content Include="admin\json\linksList.json" />
+    <Content Include="admin\json\message.json" />
+    <Content Include="admin\json\newsList.json" />
+    <Content Include="admin\json\systemParameter.json" />
+    <Content Include="admin\json\userface.json" />
+    <Content Include="admin\json\usersList.json" />
+    <Content Include="admin\layui\font\iconfont.eot" />
+    <Content Include="admin\layui\font\iconfont.ttf" />
+    <Content Include="admin\layui\font\iconfont.woff" />
+    <Content Include="admin\ajax\AjaxUpImage.ashx" />
+    <Content Include="ajax\user_tgAjax.ashx" />
+    <Content Include="ajax\inageTxAjax.ashx" />
+    <None Include="Properties\PublishProfiles\xh.pubxml" />
+    <Content Include="bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\npm.js" />
+    <Content Include="css\articleContent.css" />
+    <Content Include="css\articlesList.css" />
+    <Content Include="css\base.css" />
+    <Content Include="css\Course.css" />
+    <Content Include="css\demo5.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\reg.css" />
+    <Content Include="css\user_index.css" />
+    <Content Include="css\user_personal.css" />
+    <Content Include="css\user_recharge.css" />
+    <Content Include="img\004217A4FC53B9F184EEB7A6FB35FA5F.png" />
+    <Content Include="img\005.png" />
+    <Content Include="img\0_hate.png" />
+    <Content Include="img\1_hate.png" />
+    <Content Include="img\2c9571ee6c658edeb816bd6cc62dc453.jpg" />
+    <Content Include="img\2_hate.png" />
+    <Content Include="img\35cd1853b640548e784a9f91ed1a3162.jpg" />
+    <Content Include="img\3f7b74da84d02a5f9e0b0cba08d09fec.jpg" />
+    <Content Include="img\3_hate.png" />
+    <Content Include="img\489fe2b704be1bf0d6078801675db62e.jpg" />
+    <Content Include="img\4a8c9398f2f15b187915997c5a1b5d02.png" />
+    <Content Include="img\4d329745f54c3d29610a4a0143a8a9d0.jpg" />
+    <Content Include="img\73DDEF08C37A72ED11387E2AA98C0813.png" />
+    <Content Include="img\7f1422d4479aac5c2e65c0dc56e49864.jpg" />
+    <Content Include="img\99B9BB596E554825487D2CA5FC5097D4.png" />
+    <Content Include="img\af191ad342b1bedb4b9a0f31662e86df.jpg" />
+    <Content Include="img\android-icon.png" />
+    <Content Include="img\bgc3.jpg" />
+    <Content Include="img\bgc4.jpg" />
+    <Content Include="img\cf730995384baeac309a0c0eaeec1e38.jpg" />
+    <Content Include="img\d3a371358ec12e2ff8dc6c9160e7e31e.jpg" />
+    <Content Include="img\dab7681355f4fe18ad0bf655b451a312.jpg" />
+    <Content Include="img\defaultcoverpicture.png" />
+    <Content Include="img\default_cover.png" />
+    <Content Include="img\default_head.png" />
+    <Content Include="img\f34e923bbe6e5fe3502b33ee9f767985.jpg" />
+    <Content Include="img\f93cad0dd9be9f0d8302c60e7e31754b.jpg" />
+    <Content Include="img\footerlogo.png" />
+    <Content Include="img\footer_bar_logo.png" />
+    <Content Include="img\footer_bar_logo2.png" />
+    <Content Include="img\icons.png" />
+    <Content Include="img\index_2_1.png" />
+    <Content Include="img\index_2_2.png" />
+    <Content Include="img\index_2_3.png" />
+    <Content Include="img\left2.png" />
+    <Content Include="img\left_hand.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\new_lc.png" />
+    <Content Include="img\pay.png" />
+    <Content Include="img\persona_bg.png" />
+    <Content Include="img\privilege_icon.png" />
+    <Content Include="img\right2.png" />
+    <Content Include="img\right_hand.png" />
+    <Content Include="img\s1.gif" />
+    <Content Include="img\s2.gif" />
+    <Content Include="img\s3.gif" />
+    <Content Include="img\s4.gif" />
+    <Content Include="img\s5.gif" />
+    <Content Include="img\TB1DietXo6FK1Jjy1XdXXblkXXa_!!0-item_pic.jpg_310x310.jpg" />
+    <Content Include="img\top-bg.png" />
+    <Content Include="img\top-bg1.png" />
+    <Content Include="img\tou.png" />
+    <Content Include="img\userPic.png" />
+    <Content Include="img\vip.png" />
+    <Content Include="img\viplogo.png" />
+    <Content Include="img\weixinpay.png" />
+    <Content Include="img\yinlanpaty.png" />
+    <Content Include="img\yxcz.png" />
+    <Content Include="img\zfbpay.png" />
+    <Content Include="img\__save_4d0348a4e6f5e7f7b460695b78ecf05b.png" />
+    <Content Include="js\base.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jquery-1.11.0.js" />
+    <Content Include="layui\css\layui.css" />
+    <Content Include="layui\css\layui.mobile.css" />
+    <Content Include="layui\css\modules\code.css" />
+    <Content Include="layui\css\modules\laydate\default\laydate.css" />
+    <Content Include="layui\css\modules\layer\default\icon-ext.png" />
+    <Content Include="layui\css\modules\layer\default\icon.png" />
+    <Content Include="layui\css\modules\layer\default\layer.css" />
+    <Content Include="layui\css\modules\layer\default\loading-0.gif" />
+    <Content Include="layui\css\modules\layer\default\loading-1.gif" />
+    <Content Include="layui\css\modules\layer\default\loading-2.gif" />
+    <Content Include="layui\font\iconfont.svg" />
+    <Content Include="layui\images\face\0.gif" />
+    <Content Include="layui\images\face\1.gif" />
+    <Content Include="layui\images\face\10.gif" />
+    <Content Include="layui\images\face\11.gif" />
+    <Content Include="layui\images\face\12.gif" />
+    <Content Include="layui\images\face\13.gif" />
+    <Content Include="layui\images\face\14.gif" />
+    <Content Include="layui\images\face\15.gif" />
+    <Content Include="layui\images\face\16.gif" />
+    <Content Include="layui\images\face\17.gif" />
+    <Content Include="layui\images\face\18.gif" />
+    <Content Include="layui\images\face\19.gif" />
+    <Content Include="layui\images\face\2.gif" />
+    <Content Include="layui\images\face\20.gif" />
+    <Content Include="layui\images\face\21.gif" />
+    <Content Include="layui\images\face\22.gif" />
+    <Content Include="layui\images\face\23.gif" />
+    <Content Include="layui\images\face\24.gif" />
+    <Content Include="layui\images\face\25.gif" />
+    <Content Include="layui\images\face\26.gif" />
+    <Content Include="layui\images\face\27.gif" />
+    <Content Include="layui\images\face\28.gif" />
+    <Content Include="layui\images\face\29.gif" />
+    <Content Include="layui\images\face\3.gif" />
+    <Content Include="layui\images\face\30.gif" />
+    <Content Include="layui\images\face\31.gif" />
+    <Content Include="layui\images\face\32.gif" />
+    <Content Include="layui\images\face\33.gif" />
+    <Content Include="layui\images\face\34.gif" />
+    <Content Include="layui\images\face\35.gif" />
+    <Content Include="layui\images\face\36.gif" />
+    <Content Include="layui\images\face\37.gif" />
+    <Content Include="layui\images\face\38.gif" />
+    <Content Include="layui\images\face\39.gif" />
+    <Content Include="layui\images\face\4.gif" />
+    <Content Include="layui\images\face\40.gif" />
+    <Content Include="layui\images\face\41.gif" />
+    <Content Include="layui\images\face\42.gif" />
+    <Content Include="layui\images\face\43.gif" />
+    <Content Include="layui\images\face\44.gif" />
+    <Content Include="layui\images\face\45.gif" />
+    <Content Include="layui\images\face\46.gif" />
+    <Content Include="layui\images\face\47.gif" />
+    <Content Include="layui\images\face\48.gif" />
+    <Content Include="layui\images\face\49.gif" />
+    <Content Include="layui\images\face\5.gif" />
+    <Content Include="layui\images\face\50.gif" />
+    <Content Include="layui\images\face\51.gif" />
+    <Content Include="layui\images\face\52.gif" />
+    <Content Include="layui\images\face\53.gif" />
+    <Content Include="layui\images\face\54.gif" />
+    <Content Include="layui\images\face\55.gif" />
+    <Content Include="layui\images\face\56.gif" />
+    <Content Include="layui\images\face\57.gif" />
+    <Content Include="layui\images\face\58.gif" />
+    <Content Include="layui\images\face\59.gif" />
+    <Content Include="layui\images\face\6.gif" />
+    <Content Include="layui\images\face\60.gif" />
+    <Content Include="layui\images\face\61.gif" />
+    <Content Include="layui\images\face\62.gif" />
+    <Content Include="layui\images\face\63.gif" />
+    <Content Include="layui\images\face\64.gif" />
+    <Content Include="layui\images\face\65.gif" />
+    <Content Include="layui\images\face\66.gif" />
+    <Content Include="layui\images\face\67.gif" />
+    <Content Include="layui\images\face\68.gif" />
+    <Content Include="layui\images\face\69.gif" />
+    <Content Include="layui\images\face\7.gif" />
+    <Content Include="layui\images\face\70.gif" />
+    <Content Include="layui\images\face\71.gif" />
+    <Content Include="layui\images\face\8.gif" />
+    <Content Include="layui\images\face\9.gif" />
+    <Content Include="layui\layui.all.js" />
+    <Content Include="layui\layui.js" />
+    <Content Include="layui\lay\modules\carousel.js" />
+    <Content Include="layui\lay\modules\code.js" />
+    <Content Include="layui\lay\modules\element.js" />
+    <Content Include="layui\lay\modules\flow.js" />
+    <Content Include="layui\lay\modules\form.js" />
+    <Content Include="layui\lay\modules\jquery.js" />
+    <Content Include="layui\lay\modules\laydate.js" />
+    <Content Include="layui\lay\modules\layedit.js" />
+    <Content Include="layui\lay\modules\layer.js" />
+    <Content Include="layui\lay\modules\laypage.js" />
+    <Content Include="layui\lay\modules\laytpl.js" />
+    <Content Include="layui\lay\modules\mobile.js" />
+    <Content Include="layui\lay\modules\table.js" />
+    <Content Include="layui\lay\modules\tree.js" />
+    <Content Include="layui\lay\modules\upload.js" />
+    <Content Include="layui\lay\modules\util.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="activity.aspx.cs">
+      <DependentUpon>activity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="activity.aspx.designer.cs">
+      <DependentUpon>activity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ajax\AjaxUpImage.ashx.cs">
+      <DependentUpon>AjaxUpImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Handle.ashx.cs">
+      <DependentUpon>Handle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ajax\inageTxAjax.ashx.cs">
+      <DependentUpon>inageTxAjax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ajax\loginAjax.ashx.cs">
+      <DependentUpon>loginAjax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ajax\regAjax.ashx.cs">
+      <DependentUpon>regAjax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ajax\user_tgAjax.ashx.cs">
+      <DependentUpon>user_tgAjax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="articleContent.aspx.cs">
+      <DependentUpon>articleContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="articleContent.aspx.designer.cs">
+      <DependentUpon>articleContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="articlesList.aspx.cs">
+      <DependentUpon>articlesList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="articlesList.aspx.designer.cs">
+      <DependentUpon>articlesList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Course.aspx.cs">
+      <DependentUpon>Course.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Course.aspx.designer.cs">
+      <DependentUpon>Course.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HeadPortrait.aspx.cs">
+      <DependentUpon>HeadPortrait.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HeadPortrait.aspx.designer.cs">
+      <DependentUpon>HeadPortrait.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Other.aspx.cs">
+      <DependentUpon>Other.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Other.aspx.designer.cs">
+      <DependentUpon>Other.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\Modify_pwd.aspx.cs">
+      <DependentUpon>Modify_pwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\Modify_pwd.aspx.designer.cs">
+      <DependentUpon>Modify_pwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\personal.aspx.cs">
+      <DependentUpon>personal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\personal.aspx.designer.cs">
+      <DependentUpon>personal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\recharge.aspx.cs">
+      <DependentUpon>recharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\recharge.aspx.designer.cs">
+      <DependentUpon>recharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\reg.aspx.cs">
+      <DependentUpon>reg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\reg.aspx.designer.cs">
+      <DependentUpon>reg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\User_tg.aspx.cs">
+      <DependentUpon>User_tg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\User_tg.aspx.designer.cs">
+      <DependentUpon>User_tg.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>8329</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:8329/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

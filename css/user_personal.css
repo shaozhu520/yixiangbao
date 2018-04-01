@@ -1,0 +1,127 @@
+/*个人主页的CSS*/
+.contents {
+    padding:0;
+}    
+.data-top{
+    /*height: 432px;*/
+    text-align: center;
+    background: url(../img/persona_bg.png)  -15px;
+}
+/*头像*/
+.HeadPortrait{
+    
+}
+.HeadPortrait>img{
+   
+}
+.HeadPortrait>img{
+    width: 140px;
+    height: 140px;
+    border-radius:100%;
+}
+.datum{
+    padding:0 15%;
+    color:#fff;
+}
+/*用户名*/
+.username{
+    font-size: 20px;
+    line-height: 24px;
+    color:#fff;
+    margin: 22px 0 32px 0;
+}
+.username>img{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin-left:10px; 
+}
+.chenghao{
+    margin-top: 4px;
+    padding:0;
+}
+.Included ,.Read ,.btns ,.Gender,.data-top {
+    padding:0;
+}
+.fsize23{
+    font-size: 23px;
+}
+.fsize12{
+    font-size: 12px;
+}
+.lheight{
+    line-height: 38px;
+}
+.lheight18{
+    line-height: 18px;
+}
+.male{
+    color:#24C3F9;
+    font-size:22px; 
+}
+.female{
+    color:#FF4F37;
+    font-size:22px; 
+}
+.btns a{
+    display: inline-block;
+    width:200px;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+    color:#fff;
+    border-radius:20px;
+    margin-bottom:15px ;
+}
+.btns div:nth-child(1) a{
+    background:#FBD74F;
+}
+.btns div:nth-child(2) a{
+    background:#56D279;
+}
+.Gender-ic{
+    line-height: 38px;
+    text-align: center;
+}
+.jianjie{
+    height: 20px;
+    font-size: 18px;
+    margin-top: 26px;
+}
+.Explain{
+    line-height: 20px;
+    margin:28px 0 44px 0;
+    font-size: 14px;
+}
+.SubmissionList-img,.SubmissionList-img>img{
+    width: 137px;
+    height: 137px;
+}
+.SubmissionList-li{
+    float:left;
+    margin-right: 42px;
+}
+.SubmissionList-title{
+    width: 137px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    color: #4E4E4E;
+    max-width: 100%;
+    
+    margin-top: 7px;
+
+}
+.SubmissionList-title .sh{
+    display: inline-block;
+    text-align:center;
+    color:#fff;
+    background:#48B57E;
+    width: 49px;
+    height: 26px;
+    line-height:26px;
+    margin-right: 3px;
+}

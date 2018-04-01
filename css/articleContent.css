@@ -1,0 +1,85 @@
+
+.contents{
+    background:#F9F9F9;
+}
+.contents-main{
+    background:#fff;
+    /*padding: 20px 20px 10px 20px;*/
+}
+.contents-main-l{
+    
+    box-shadow: 0px 0px 20px #dedede;
+    float:left;
+    padding:0 2%;
+}
+.contents-main-l-head{
+    text-align:center;
+}
+.contents-main-l-head h2{
+    /*height: 40px;*/
+    line-height:40px;
+    font-size:20px;
+}
+.wzxx{
+   height: 46px;
+   font-size: 12px;
+   border-bottom:1px solid #333;
+   line-height: 46px 
+  
+}
+.contents-main-r{
+    box-shadow: 0px 0px 20px #dedede;
+    /*border: 1px solid #333;*/
+    float:right;
+    padding:0 1%;
+}
+
+.titles{
+    height: 40px;
+    line-height: 40px;
+    border-bottom:1px solid #000000;
+    font-size: 15px;
+}
+.titles i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+ 
+.Rankings-list,.Rankings,.author,.Recommend,.author-img,.container{
+    padding:0;
+    
+}
+.Rankings-list{
+    text-align:center;
+}
+.Rankings-list li a{
+    height: 33px;
+    line-height:33px;
+    font-size:14px;
+    
+}
+.Rankings-list li a{
+    padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.author-img{
+    /*width: 80%;*/
+    text-align:center;
+    
+}
+.author-img img {
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 100%;
+   padding:35px 0;
+}
+/*ÎÄÕÂÄÚÈÝ*/
+.contents-main-text {
+    padding:30px 0;
+}
+.contents-main-text img {
+    width:60%;
+}
+

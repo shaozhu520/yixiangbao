@@ -1,0 +1,129 @@
+/*用户信息*/
+
+
+.userbox-con-l ul li:nth-child(1) a{
+    background:#6CCE88;
+    color:#fff;
+}
+/*头像盒子*/
+.balancebox{
+    height:265px;
+    border-bottom: 1px dashed #DCDCDC;
+}
+.tximg{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+.v-icon{
+    margin-right: 5px;
+}
+.balancebox-l{
+    
+    position:relative;
+}
+.HeadPortrait{
+    
+    margin: auto;  
+    position:absolute;
+    margin-top:60px;
+    left: 50%;
+   margin-left:-60px; 
+}
+.balance-tex1{
+    font-size:18px;
+    line-height: 47px;
+}
+.balance-icon1{
+    margin-left:16px;
+}
+.balance{
+    margin-top:50px;
+}
+.balance-integer{
+    color:#FF8401;
+    font-size:32px;
+    
+}
+.balance-decimal{
+    color:#FF8401;
+    font-size:20px;
+    margin-right:16px;
+}
+.balance-tex2{
+    font-size:16px;
+    line-height: 58px;
+}
+.Recharge-bnt{
+    display: inline-block;
+    width: 100px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    background:#F0AD4E;
+    color:#fff;
+    text-align:center;
+    border-radius:5px;
+}
+
+.Recharge-bnt:hover{
+    background: #EC971F;
+    color:#fff;
+}
+/*资料盒子开始*/
+.datum-box{
+    padding:0;
+    margin-bottom:35px;
+}
+.datum{
+    
+    height: 50px;
+    line-height: 50px;
+    padding:0 5%;
+}
+.datum li{
+    font-size:16px;
+}
+.Gender-icon{
+    color:#24C3F9;
+    font-size:30px;
+}
+.male{
+    color:#24C3F9;
+}
+.female{
+    color:#FF4F37;
+}
+.Sign-btn{
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align:center;
+    border:1px solid #41D88C;
+    color:#41D88C;
+    border-radius:3px;
+}
+.Sign-btn:hover{
+    border-radius:10px;
+    color:#41D88C;
+}
+
+.Reminder{
+    margin: 10px 0;
+    padding:0  15px;
+    line-height: 40px;
+    background: #FCF8E3;
+    border-radius: 8px;
+}
+.modify-btn{
+    
+    padding:0;
+    text-align:center;
+}
+.PersonalCenter{
+    max-width: 65%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

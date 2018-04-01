@@ -1,0 +1,124 @@
+.navbar{
+    margin-bottom:0 !important;
+}
+
+
+/*文章开始*/
+.Articles-con{
+    margin:0 auto;
+}
+.Articles-con-l{
+    float: left;
+}
+.Articles-con-r{
+    float:right;
+    
+}
+.Articles-con-r,.Articles-con-l{
+    padding:0 3%;
+}
+.Articles-con-l-title,.Articles-con-r-title{
+    border-bottom:1px solid #EFEFEF;
+    box-sizing:border-box;
+}
+.Articles-con-l-title,.Articles-con-l-title h2,.Articles-con-r-title h2{
+    line-height:30px;
+    font-size: 17px; 
+    margin: 12px 0;
+}
+.Articles-con-l-title{
+    margin:  0;
+}
+
+.Articles-con-l-title-icon{
+    margin-right:10px;
+    font-size: 20px; 
+}
+
+.Articles-con-l-main li:nth-child(1){
+     border-top:none;
+}
+
+.Articles-con-l-main li{
+    float:left;
+    width: 100%;
+    padding: 24px 0 20px 23px;
+    box-sizing:border-box;
+    border-top:1px dashed #E0E0E0;
+    cursor:pointer;
+    
+}
+.Articles-con-l-main li:hover{
+    background:#F7F7F7;
+}
+.thumbnail{
+    float:left;
+    /*
+    width: 165px;
+    height: 150px;*/
+    
+}
+.detailed{
+    float:right;
+}
+.detailed h3{
+    font-size:18px;
+    height: 40px;
+    line-height: 40px;
+    
+    padding: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.wztime{
+    height: 35px;
+    line-height: 35px;
+}
+.wztime span{
+    margin-right: 30px;
+    font-size: 14px;
+}
+.wzxiangxi{
+    height: 70px;
+    line-height: 35px;
+    color: #666;
+    padding: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+
+.ranking-main li{
+    height: 60px;
+    padding-top:30px;
+    box-sizing:border-box;
+}
+.ranking-main li span{
+    display:inline-block;
+    width: 29px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    color:#fff;
+    background:#FF5555;
+    border-radius:5px;
+    margin-right: 10px;
+}
+.ranking-main li a{
+    line-height: 27px;
+    width: 80%;
+    float: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+}
+.ranking:nth-of-type(2) {
+    margin-top: 35px;
+}

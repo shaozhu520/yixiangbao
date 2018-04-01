@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Administrator\Desktop\新建文件夹</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AboutUs.aspx">
+      <publishTime>09/11/2017 21:20:51</publishTime>
+    </File>
+    <File Include="admin/css/font_eolqem241z66flxr.css">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/css/images.css">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/css/main.css">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/css/message.css">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/css/news.css">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/css/user.css">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/Handle.ashx">
+      <publishTime>09/17/2017 13:16:42</publishTime>
+    </File>
+    <File Include="admin/images/alipay.jpg">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/images/face.jpg">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/images/userface1.jpg">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/images/userface2.jpg">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/images/userface3.jpg">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/images/userface4.jpg">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/images/userface5.jpg">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/images/wechat.jpg">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/index.html">
+      <publishTime>09/17/2017 11:12:07</publishTime>
+    </File>
+    <File Include="admin/js/bodyTab.js">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/js/index.js">
+      <publishTime>09/17/2017 10:59:58</publishTime>
+    </File>
+    <File Include="admin/js/leftNav.js">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/js/main.js">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/js/nav.js">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/json/images.json">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/json/linksList.json">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/json/message.json">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/json/newsList.json">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/json/systemParameter.json">
+      <publishTime>09/17/2017 10:40:52</publishTime>
+    </File>
+    <File Include="admin/json/userface.json">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/json/usersList.json">
+      <publishTime>09/12/2017 18:27:19</publishTime>
+    </File>
+    <File Include="admin/layui/css/layui.css">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/css/layui.mobile.css">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/css/modules/code.css">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/css/modules/laydate/icon.png">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/css/modules/laydate/laydate.css">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/css/modules/layer/default/icon-ext.png">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/css/modules/layer/default/icon.png">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/css/modules/layer/default/layer.css">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/css/modules/layer/default/loading-0.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/css/modules/layer/default/loading-1.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/css/modules/layer/default/loading-2.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/font/iconfont.eot">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/font/iconfont.svg">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/font/iconfont.ttf">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/font/iconfont.woff">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/0.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/1.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/10.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/11.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/12.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/13.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/14.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/15.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/16.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/17.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/18.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/19.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/2.gif">
+      <publishTime>09/12/2017 18:27:20</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/20.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/21.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/22.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/23.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/24.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/25.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/26.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/27.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/28.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/29.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/3.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/30.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/31.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/32.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/33.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/34.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/35.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/36.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/37.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/38.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/39.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/4.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/40.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/41.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/42.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/43.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/44.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/45.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/46.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/47.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/48.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/49.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/5.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/50.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/51.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/52.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/53.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/54.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/55.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/56.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/57.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/58.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/59.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/6.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/60.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/61.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/62.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/63.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/64.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/65.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/66.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/67.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/68.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/69.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/7.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/70.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/71.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/8.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/images/face/9.gif">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/lay/dest/layui.all.js">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/code.js">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/element.js">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/flow.js">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/form.js">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/jquery.js">
+      <publishTime>09/12/2017 18:27:21</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/laydate.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/layedit.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/layer.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/layim.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/laypage.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/laytpl.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/mobile.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/tree.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/upload.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/layui/lay/modules/util.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/layui/layui.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/page/404.html">
+      <publishTime>09/16/2017 16:02:24</publishTime>
+    </File>
+    <File Include="admin/page/img/images.html">
+      <publishTime>09/16/2017 16:06:22</publishTime>
+    </File>
+    <File Include="admin/page/img/images.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/page/links/linksAdd.html">
+      <publishTime>09/16/2017 16:06:58</publishTime>
+    </File>
+    <File Include="admin/page/links/linksAdd.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/page/links/linksList.html">
+      <publishTime>09/16/2017 16:06:48</publishTime>
+    </File>
+    <File Include="admin/page/links/linksList.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/page/main.html">
+      <publishTime>09/17/2017 10:55:20</publishTime>
+    </File>
+    <File Include="admin/page/message/message.html">
+      <publishTime>09/16/2017 16:06:41</publishTime>
+    </File>
+    <File Include="admin/page/message/message.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/page/message/messageReply.html">
+      <publishTime>09/16/2017 16:06:35</publishTime>
+    </File>
+    <File Include="admin/page/news/add.js">
+      <publishTime>09/17/2017 13:20:32</publishTime>
+    </File>
+    <File Include="admin/page/news/check.js">
+      <publishTime>09/17/2017 21:57:54</publishTime>
+    </File>
+    <File Include="admin/page/news/jquery-1.11.0.js">
+      <publishTime>09/17/2017 13:21:12</publishTime>
+    </File>
+    <File Include="admin/page/news/newsAdd.html">
+      <publishTime>09/17/2017 14:49:26</publishTime>
+    </File>
+    <File Include="admin/page/news/newsAdd.js">
+      <publishTime>09/17/2017 16:50:29</publishTime>
+    </File>
+    <File Include="admin/page/news/newsList.html">
+      <publishTime>09/17/2017 21:44:55</publishTime>
+    </File>
+    <File Include="admin/page/news/newsList.js">
+      <publishTime>09/17/2017 22:05:18</publishTime>
+    </File>
+    <File Include="admin/page/systemParameter/systemParameter.html">
+      <publishTime>09/16/2017 16:05:17</publishTime>
+    </File>
+    <File Include="admin/page/systemParameter/systemParameter.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/page/user/address.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/page/user/addUser.html">
+      <publishTime>09/16/2017 16:05:08</publishTime>
+    </File>
+    <File Include="admin/page/user/addUser.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/page/user/allUsers.html">
+      <publishTime>09/16/2017 16:04:50</publishTime>
+    </File>
+    <File Include="admin/page/user/allUsers.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/page/user/changePwd.html">
+      <publishTime>09/16/2017 16:04:40</publishTime>
+    </File>
+    <File Include="admin/page/user/user.js">
+      <publishTime>09/12/2017 18:27:22</publishTime>
+    </File>
+    <File Include="admin/page/user/userInfo.html">
+      <publishTime>09/16/2017 16:04:29</publishTime>
+    </File>
+    <File Include="Article.aspx">
+      <publishTime>09/15/2017 22:00:27</publishTime>
+    </File>
+    <File Include="bin/com.DAL.Base.dll">
+      <publishTime>09/10/2017 17:58:56</publishTime>
+    </File>
+    <File Include="bin/com.Model.Base.dll">
+      <publishTime>09/10/2017 18:00:58</publishTime>
+    </File>
+    <File Include="bin/com.Utility.dll">
+      <publishTime>09/10/2017 17:58:33</publishTime>
+    </File>
+    <File Include="bin/DAL.ruanmou.dll">
+      <publishTime>09/10/2017 17:59:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Caching.dll">
+      <publishTime>05/14/2008 16:43:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>05/14/2008 16:43:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>05/14/2008 16:43:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ObjectBuilder2.dll">
+      <publishTime>05/14/2008 15:57:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>05/14/2008 15:57:26</publishTime>
+    </File>
+    <File Include="bin/Model.ruanmou.dll">
+      <publishTime>09/17/2017 12:41:48</publishTime>
+    </File>
+    <File Include="bin/vip20170612.dll">
+      <publishTime>09/17/2017 20:16:39</publishTime>
+    </File>
+    <File Include="Buddhism.aspx">
+      <publishTime>09/16/2017 08:29:05</publishTime>
+    </File>
+    <File Include="css/Article.css">
+      <publishTime>09/10/2017 15:59:13</publishTime>
+    </File>
+    <File Include="css/base.css">
+      <publishTime>09/09/2017 17:17:33</publishTime>
+    </File>
+    <File Include="css/Buddhism.css">
+      <publishTime>09/15/2017 21:52:19</publishTime>
+    </File>
+    <File Include="css/enroll.css">
+      <publishTime>09/16/2017 13:35:11</publishTime>
+    </File>
+    <File Include="css/index.css">
+      <publishTime>09/15/2017 23:05:10</publishTime>
+    </File>
+    <File Include="css/RNewsM.css">
+      <publishTime>09/17/2017 16:19:51</publishTime>
+    </File>
+    <File Include="enroll.aspx">
+      <publishTime>09/16/2017 13:36:35</publishTime>
+    </File>
+    <File Include="img/5993e1dd16f8a.png">
+      <publishTime>09/09/2017 17:16:55</publishTime>
+    </File>
+    <File Include="img/banner1.gif">
+      <publishTime>09/11/2017 21:29:22</publishTime>
+    </File>
+    <File Include="img/bd_logo1.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/chisu.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/cz.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/ds.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/group.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/icon-slides.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/icon.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/ioc-i1.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/ioc-i2.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/ioc-i3.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/ioc-i4.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/ioc-i5.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/ioc-i6.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/jb_more.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/jp_0825_i_d1.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/lunbo1.jpg">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/lunbo2.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/lunbo3.jpg">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/lunbo4.jpg">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/pauthor.png">
+      <publishTime>09/15/2017 13:54:42</publishTime>
+    </File>
+    <File Include="img/round.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/TP-ico1.png">
+      <publishTime>09/09/2017 17:16:56</publishTime>
+    </File>
+    <File Include="img/TP-ico2.png">
+      <publishTime>09/09/2017 17:16:57</publishTime>
+    </File>
+    <File Include="img/TP-ico3.png">
+      <publishTime>09/09/2017 17:16:57</publishTime>
+    </File>
+    <File Include="img/TP-ico4.png">
+      <publishTime>09/09/2017 17:16:57</publishTime>
+    </File>
+    <File Include="img/TP-ico5.png">
+      <publishTime>09/09/2017 17:16:57</publishTime>
+    </File>
+    <File Include="img/xs.png">
+      <publishTime>09/09/2017 17:16:57</publishTime>
+    </File>
+    <File Include="img/xx.png">
+      <publishTime>09/09/2017 17:16:57</publishTime>
+    </File>
+    <File Include="img/zq.png">
+      <publishTime>09/09/2017 17:16:57</publishTime>
+    </File>
+    <File Include="Impure.aspx">
+      <publishTime>09/15/2017 20:53:54</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>09/15/2017 22:38:18</publishTime>
+    </File>
+    <File Include="js/AboutUs.js">
+      <publishTime>09/09/2017 17:16:41</publishTime>
+    </File>
+    <File Include="js/Article.js">
+      <publishTime>09/15/2017 22:14:03</publishTime>
+    </File>
+    <File Include="js/Buddhism.js">
+      <publishTime>09/15/2017 20:42:53</publishTime>
+    </File>
+    <File Include="js/enroll.js">
+      <publishTime>09/09/2017 17:16:41</publishTime>
+    </File>
+    <File Include="js/footer.js">
+      <publishTime>09/10/2017 14:06:34</publishTime>
+    </File>
+    <File Include="js/Impure.js">
+      <publishTime>09/15/2017 22:15:31</publishTime>
+    </File>
+    <File Include="js/index.js">
+      <publishTime>09/15/2017 15:12:51</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.0.js">
+      <publishTime>09/09/2017 17:16:41</publishTime>
+    </File>
+    <File Include="js/nav.js">
+      <publishTime>09/14/2017 23:25:03</publishTime>
+    </File>
+    <File Include="js/RNewsM.js">
+      <publishTime>09/17/2017 13:03:33</publishTime>
+    </File>
+    <File Include="RNewsM.ashx">
+      <publishTime>09/10/2017 19:35:32</publishTime>
+    </File>
+    <File Include="RNewsM.aspx">
+      <publishTime>09/17/2017 13:01:49</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/17/2017 22:50:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

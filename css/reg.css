@@ -1,0 +1,28 @@
+body{
+    background:url(../img/bgc3.jpg);
+}
+.beijings {
+    max-width: 80%;
+    position: absolute;
+    top: 8%;
+    right: 10%;
+}
+.Send{
+    position:relative;
+}
+.Send-btn{
+    position: absolute;
+    top:0px;
+    right: 0;
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+    color:#fff;
+    background: #333;
+    text-align: center;
+}
+.Send-btn:hover{
+    background: #666;
+    color:#fff;
+}

@@ -1,0 +1,21 @@
+
+.userbox-con-l ul li:nth-child(2) a{
+    background:#6CCE88;
+    color:#fff;
+}
+.rechargebox{
+    box-sizing:border-box;
+    padding: 2% 3% 0 3%;
+}
+.czbtn{
+    display:inline-block;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color:#fff;
+    background: #FF6838;
+    margin: 20px 0;
+}
+.pay_list {
+    padding:15px;
+}

@@ -1,0 +1,12 @@
+﻿.userbox-con-l ul li:nth-child(4) a {
+    background: #6CCE88;
+    color: #fff;
+}
+.Explain p{
+    line-height:30px;
+}
+.tjbtn {
+    position:relative;
+    left:50%;
+    margin-bottom:30px;
+}

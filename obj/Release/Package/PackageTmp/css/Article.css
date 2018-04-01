@@ -1,0 +1,101 @@
+.Article{
+	margin: 27px 0;
+    height: auto;
+    overflow: hidden;
+}
+.dvList{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.nav_er{
+    height:50px;
+    width:1000px;
+    line-height:50px;
+    font-size:18px;
+}
+.nav_er a{
+    font-size:18px;
+    color:#555;
+}
+
+.dvList li{
+	position:relative;
+}
+.dvList ul li{
+	position: relative;
+    width: 100%;
+    height: 148px;
+    overflow: hidden;
+}
+.list_box_tup{
+	position: absolute;
+    left: 139px;
+    top: 71px;
+    width: 10px;
+    height: 10px;
+    z-index: 5;
+    background: url(http://1.rc.xiniu.com/img/site/xny_news_list_box.jpg) no-repeat center;
+}
+.list_box_time{
+	width: 135px;
+    height: 92px;
+    float: left;
+    margin-left: 8px;
+    border-right: 2px solid #ececec;
+    text-align: center;
+    font-size: 0px;
+    color: #4e4e4e;
+    padding-top: 56px;
+}
+.list_box_time span{
+	font-size: 28px;
+}
+.list_box_li{
+	padding: 17px 16px;
+    width: 765px;
+    float: left;
+    height: 106px;
+    margin-left: 17px;
+    margin-top: 8px;
+    position: relative;
+}
+.list_box_li_left{
+	float: left;
+    width: 158px;
+    height: 106px;
+}
+.box_li_right{
+	float: left;
+    width: 570px;
+    height: 106px;
+    margin-left: 25px;
+}
+.list_box_li_title{
+	width: 100%;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+.list_box_li_cont{
+	width: 100%;
+    height: 50px;
+    margin-top: 7px;
+    line-height: 24px;
+    font-size: 13px;
+    color: #959595;
+    margin-bottom: 5px;
+    word-break: break-all;
+}
+.box_li_more{
+	height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.box_li_right a{
+	color:#444;
+}
+
